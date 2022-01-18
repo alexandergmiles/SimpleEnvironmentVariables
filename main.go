@@ -18,7 +18,7 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Printf("Variables found:\nName - %s\nPort - %d\n", envVariables.Name, envVariables.Port)
+	fmt.Printf("Variables found:\nName - %s\nPor%d\n", envVariables.Name, envVariables.Port)
 }
 
 func getEnvironmentVariables() (*EnviromentVariables, error) {
